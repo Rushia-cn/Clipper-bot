@@ -13,7 +13,7 @@ time_pattern = re.compile(r"\d*:[0-5]\d?:[0-5]\d?$")
 
 def parse(bot, msg: Message) -> Optional[ClipRequest]:
     splitted = msg.text.split(" ")
-    if splitted.__len__() < 3:
+    if splitted.__len__() < 4:
         bot.reply_to(msg, "Command usage: /add [URL] [IN] [OUT]")
         return
     url = splitted[1]

@@ -1,0 +1,11 @@
+help - Get help information
+add - Request for a new clip
+publish - Publish a clip request
+setname - Set i18n name for specific clip request
+setcat - Set category for specific clip request
+cert - Certify a user
+certed - ls all certified users
+cats - Get a list of categories
+ls - List all requests
+inspect - Get detailed information about a clip
+stats - Get detailed stats about Rushia Button
